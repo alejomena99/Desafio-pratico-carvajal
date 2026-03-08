@@ -1,0 +1,18 @@
+replicaCount:
+
+image:
+  repository:
+  tag:
+  pullPolicy:
+
+service:
+  type:
+  port:
+  clusterIP:
+
+containerPort:
+
+ingress:
+  enabled:
+  host:
+  path:

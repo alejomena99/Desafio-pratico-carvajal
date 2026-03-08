@@ -1,0 +1,13 @@
+apiVersion: v2
+name: fox-jokes-stack
+description: Fox jokes
+type: application
+version: 0.1.0
+
+dependencies:
+  - name: fox-jokes-dashboard
+    version: 0.1.0
+    repository: "file://../fox-jokes-dashboard"
+  - name: fox-jokes-gateway
+    version: 0.1.0
+    repository: "file://../fox-jokes-gateway"

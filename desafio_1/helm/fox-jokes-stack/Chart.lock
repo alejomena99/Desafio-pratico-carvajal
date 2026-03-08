@@ -1,0 +1,9 @@
+dependencies:
+- name: fox-jokes-dashboard
+  repository: file://../fox-jokes-dashboard
+  version: 0.1.0
+- name: fox-jokes-gateway
+  repository: file://../fox-jokes-gateway
+  version: 0.1.0
+digest: sha256:0a6ec8fdbaa278c66454d1c4073c0ebc8c6cf1e9d8afc445c2549f98feb23c8d
+generated: "2026-03-07T23:53:03.783027837-05:00"

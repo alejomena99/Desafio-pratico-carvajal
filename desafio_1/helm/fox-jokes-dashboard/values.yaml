@@ -1,0 +1,20 @@
+replicaCount:
+
+image:
+  repository:
+  tag:
+  pullPolicy:
+
+service:
+  type:
+  port:
+
+containerPort:
+
+env:
+
+
+ingress:
+  enabled:
+  host:
+  path:

@@ -1,0 +1,32 @@
+# =========================
+# Node
+# =========================
+node_modules/
+package-lock.json
+dist/
+build/
+
+# =========================
+# Terraform / OpenTofu
+# =========================
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+
+# mantener tfvars
+!*.tfvars
+
+# =========================
+# Helm
+# =========================
+**/charts/*.tgz
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
